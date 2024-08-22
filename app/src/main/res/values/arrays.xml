@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="burclar">
+        <item>Qoc</item>
+        <item>Boga</item>
+        <item>Ekizler</item>
+        <item>Xerceng</item>v
+        <item>Aslan</item>
+        <item>Qiz</item>
+        <item>Terezi</item>
+        <item>Eqreb</item>
+        <item>OxAtan</item>
+        <item>Oglag</item>
+        <item>Dolca</item>
+        <item>Baliq</item>
+    </string-array>
+    <string-array name="burcTarix">
+        <item>21 Mart - 20 Aprel</item>
+        <item>21 Aprel - 21 May</item>
+        <item>22 May - 22 Iyun</item>
+        <item>23 Iyun - 22 Iyul</item>v
+        <item>23 Iyul - 22 Avqust</item>
+        <item>23 Avqust - 22 Sentiyabr</item>
+        <item>23 Sentiyabr - 22 Oktyabr</item>
+        <item>23 Oktyabr - 21 Noyabr</item>
+        <item>22 Noyabr - 21 Dekabr</item>
+        <item>22 Dekabr - 21 Yanvar</item>
+        <item>22 Yanvar - 19 Fevral</item>
+        <item>20 Fevral -  20 Mart</item>
+    </string-array>
+
+</resources>
