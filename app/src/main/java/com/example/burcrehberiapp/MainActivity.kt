@@ -10,6 +10,8 @@ import com.example.burcrehberiapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
+    lateinit var tumBurcBilgileri: ArrayList<Burc>
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -23,11 +25,18 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        //1. Resorsda yaratdigim burclar arayini activity maine getirdim
+
+        veriKaynagiHazrila()
+
+
+        var myBaseAdapter = BurclarBaseAdapter(this)
+        binding.listBurclar.adapter = myBaseAdapter
+    }
+
+    private fun veriKaynagiHazrila() {
+        tumBurcBilgileri = ArrayList<Burc>(12)
         var burclar = resources.getStringArray(R.array.burclar)
         var burcTarihleri = resources.getStringArray(R.array.burcTarix)
-
-        // 2. Burda sekilleri cagiriram
         var burcResimleri = arrayOf(
             R.drawable.qoc,
             R.drawable.buga,
@@ -42,22 +51,21 @@ class MainActivity : AppCompatActivity() {
             R.drawable.dolca,
             R.drawable.baliq
         )
-
-        // 4. Burda yaraydigimiz Array adapteri cagiririq ve conustruktorlarina burclara aid olan her seyi gonderirik
-        /*  var myAdapter = BurclarArrayAdapter(
-              this,
-              R.layout.tek_satir,
-              R.id.tbBurcAdi,
-              burclar,
-              burcTarihleri,
-              burcResimleri
-          )
-
-          // 5. Burda ise yaratdigimiz obyekti myAdapteri activitideki listBurclara gonderirik
-          binding.listBurclar.adapter = myAdapter
-  */
-        var myBaseAdapter = BurclarBaseAdapter(this)
-        binding.listBurclar.adapter=myBaseAdapter
+        var burcBoyukResimler = arrayOf(
+            R.drawable.qoc_burcu,
+            R.drawable.buga_burcu,
+            R.drawable.ekizler_burcu,
+            R.drawable.xerceng_burcu,
+            R.drawable.sir_burcu,
+            R.drawable.qiz_burcu,
+            R.drawable.terezi_burcu,
+            R.drawable.eqreb_burcu,
+            R.drawable.oxatan_burcu,
+            R.drawable.oglaq_burcu,
+            R.drawable.dolca_burcu,
+            R.drawable.baliqlar_burcu,
+        )
+        //  var burcGenelOzellikler=resources.getStringArray(R.array.
     }
 }
 

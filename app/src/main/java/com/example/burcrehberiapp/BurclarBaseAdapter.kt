@@ -10,11 +10,11 @@ import android.widget.TextView
 
 class BurclarBaseAdapter(context: Context) : BaseAdapter() {
 
-    var tumBurclar: ArrayList<Burclar>
+    var tumBurclar: ArrayList<Burc>
     var context: Context
 
     init {
-        tumBurclar = ArrayList<Burclar>(12)
+        tumBurclar = ArrayList<Burc>(12)
         this.context = context
         var burcAdlari = context.resources.getStringArray(R.array.burclar)
         var burcTarixleri = context.resources.getStringArray(R.array.burcTarix)
@@ -34,7 +34,7 @@ class BurclarBaseAdapter(context: Context) : BaseAdapter() {
         )
         for (i in 0..11) {
 
-            var arraylistAtanacaqBurc = Burclar(burcAdlari[i], burcTarixleri[i], burcResimleri[i])
+            var arraylistAtanacaqBurc = Burc(burcAdlari[i], burcTarixleri[i], burcResimleri[i])
             tumBurclar.add(arraylistAtanacaqBurc)
         }
     }
@@ -78,7 +78,6 @@ class BurclarBaseAdapter(context: Context) : BaseAdapter() {
 
 }
 
-data class Burclar(var burcAdi: String, var burcTarix: String, var burcSembol: Int) {}
 
 class ViewHolder2(tek_satir_view: View) {
     val burcResim: ImageView
