@@ -29,4 +29,117 @@
         <item>20 Fevral -  20 Mart</item>
     </string-array>
 
+    <string-array name="burcGenelOzellikleri">
+
+        <item>\tGenel Ozellikler\n\n
+        \tElement: Atəş\n
+\tPlaneta: Mars\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Enerjili, cəsarətli və liderlik qabiliyyətinə malikdir.\n
+\t\t- Daim yenilik axtarışında olur və irəliyə doğru addımlamağa meyillidir.\n
+\t\t- Yeni layihələrə və macəralara başlamaqdan çəkinməz.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+        \tElement: Torpaq\n
+\tPlaneta: Venera\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Səbirli, inadcıl və praqmatikdir.\n
+\t\t- Maddi dəyərlərə və stabil həyat tərzinə üstünlük verir.\n
+\t\t- Sadiq və etibarlı dost və partnyor olur.\n\n
+</item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Hava\n
+\tPlaneta: Merkuri\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Ağıllı, maraqlı və ünsiyyətcildir.\n
+\t\t- Tez-tez fikrini dəyişir və yeni məlumatları sürətlə mənimsəyir.\n
+\t\t- Əyləncəli və dinamik xarakteri var.\n\n
+</item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Su\n
+\tPlaneta: Ay\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Hissiyatlı, qayğıkeş və evcil xarakterə malikdir.\n
+\t\t- Emosional ehtiyacları və ailə dəyərləri onun üçün önəmlidir.\n
+\t\t- Duyğusal bağlılıqlar qurmağa meyillidir.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Atəş\n
+\tPlaneta: Günəş\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Cəsur, özünə güvənən və yaradıcılığa meyillidir.\n
+\t\t- Təbii liderdir və diqqət mərkəzində olmağı sevir.\n
+\t\t- Səxavətli və əliaçıqdır.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Torpaq\n
+\tPlaneta: Merkuri\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Dəqiq, praktik və təfərrüatlara diqqətlidir.\n
+\t\t- Səliqəli və intizamlıdır, hər şeyi planlaşdırmağı sevir.\n
+\t\t- Xidmət göstərməyi və başqalarına kömək etməyi sevir.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Hava\n
+\tPlaneta: Venera\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Ədalətli, balanslı və diplomatikdir.\n
+\t\t- Sosial, şən və başqaları ilə yaxşı münasibət qurur.\n
+\t\t- Harmoniya və gözəllik axtarır.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Su\n
+\tPlaneta: Pluton və Mars\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Ehtiraslı, güclü və qərarlıdır.\n
+\t\t- Dərin və sirli hisslərə malikdir.\n
+\t\t- Məsuliyyətlidir və sadiqdir, lakin qısqanc ola bilər.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Atəş\n
+\tPlaneta: Yupiter\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Məcaraçı, optimist və azadlıqsevərdir.\n
+\t\t- Filozofik düşüncə tərzinə malikdir və yeni təcrübələrə açıqdır.\n
+\t\t- Səmimi və açıq ürəklidir.\n\n
+</item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Torpaq\n
+\tPlaneta: Saturn\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Məqsədyönlü, səbirli və disiplinlidir.\n
+\t\t- Məsuliyyətli və işgüzardır.\n
+\t\t- Maddi uğur və sosial statusa böyük önəm verir.\n\n
+        </item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Hava\n
+\tPlaneta: Uran\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Yenilikçi, müstəqil və orijinaldır.\n
+\t\t- Sosial və humanitar məsələlərə maraq göstərir.\n
+\t\t- Dostluq əlaqələrinə və fikirlərin mübadiləsinə böyük önəm verir.\n\n
+</item>
+
+        <item>\tGenel Ozellikler\n\n
+            \tElement: Su\n
+\tPlaneta: Neptun\n\n
+\tXarakterik Xüsusiyyətləri:\n
+\t\t- Hissiyatlı, xeyirxah və şəfqətlidir.\n
+\t\t- Yaradıcı və xəyalpərəstdir.\n
+\t\t- Duyğusal bağlılıqlar qurmağa meyillidir və başqalarına kömək etməyi sevir.\n\n
+        </item>
+
+
+    </string-array>
+
 </resources>

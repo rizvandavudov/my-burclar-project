@@ -1,5 +1,6 @@
 package com.example.burcrehberiapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -29,8 +30,18 @@ class MainActivity : AppCompatActivity() {
         veriKaynagiHazrila()
 
 
-        var myBaseAdapter = BurclarBaseAdapter(this)
+        var myBaseAdapter = BurclarBaseAdapter(this,tumBurcBilgileri)
         binding.listBurclar.adapter = myBaseAdapter
+
+        binding.listBurclar.setOnItemClickListener { parent, view, position, id ->
+            var intent = Intent(this@MainActivity,DetayActivity::class.java)
+            intent.putExtra("position",position)
+            intent.putExtra("tumBurcBilgileri",tumBurcBilgileri)
+
+            startActivity(intent)
+
+
+        }
     }
 
     private fun veriKaynagiHazrila() {
@@ -65,7 +76,14 @@ class MainActivity : AppCompatActivity() {
             R.drawable.dolca_burcu,
             R.drawable.baliqlar_burcu,
         )
-        //  var burcGenelOzellikler=resources.getStringArray(R.array.
+         var burcGenelOzellikler=resources.getStringArray(R.array.burcGenelOzellikleri)
+        for (i in 0..11) {
+
+            var arraylistAtanacaqBurc = Burc(burclar[i], burcTarihleri[i], burcResimleri[i], burcBoyukResimler[i],burcGenelOzellikler[i])
+            tumBurcBilgileri.add(arraylistAtanacaqBurc)
+        }
+
     }
+
 }
 

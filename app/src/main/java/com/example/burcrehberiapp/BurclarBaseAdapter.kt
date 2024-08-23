@@ -8,35 +8,15 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
-class BurclarBaseAdapter(context: Context) : BaseAdapter() {
+class BurclarBaseAdapter(context: Context, tumBurcBilgileri: ArrayList<Burc>) : BaseAdapter() {
 
     var tumBurclar: ArrayList<Burc>
     var context: Context
 
     init {
-        tumBurclar = ArrayList<Burc>(12)
+      this.tumBurclar = tumBurcBilgileri
         this.context = context
-        var burcAdlari = context.resources.getStringArray(R.array.burclar)
-        var burcTarixleri = context.resources.getStringArray(R.array.burcTarix)
-        var burcResimleri = arrayOf(
-            R.drawable.qoc,
-            R.drawable.buga,
-            R.drawable.ekizler,
-            R.drawable.xerceng,
-            R.drawable.sir,
-            R.drawable.qiz,
-            R.drawable.terezi,
-            R.drawable.eqreb,
-            R.drawable.oxatan,
-            R.drawable.oglaq,
-            R.drawable.dolca,
-            R.drawable.baliq
-        )
-        for (i in 0..11) {
 
-            var arraylistAtanacaqBurc = Burc(burcAdlari[i], burcTarixleri[i], burcResimleri[i])
-            tumBurclar.add(arraylistAtanacaqBurc)
-        }
     }
 
     override fun getView(position: Int, contentView: View?, parent: ViewGroup?): View? {
