@@ -13,17 +13,24 @@
         android:theme="@style/Theme.Burcrehberiapp"
         tools:targetApi="31">
         <activity
-            android:name=".DetayActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Detay Activity, içərisində yalnız daxili istifadə üçün -->
+        <activity
+            android:name=".DetayActivity"
+            android:exported="false" />
+
+        <!-- Main Activity, əsas fəaliyyət -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>
