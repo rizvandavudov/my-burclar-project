@@ -60,9 +60,3 @@ Project Link: https://github.com/rizvandavudov/burc-rehberi-app
 
 
 
-
-
-
-
-
-New version of GPT available - Continue chatting to use the old version, or start a new chat for the latest version.
